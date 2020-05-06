@@ -1,0 +1,319 @@
+html{
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    width: 100%;
+    background-color: none;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.head-a{
+    width: 100%;
+    height: 68px;
+}
+.head{
+    width: 100%;
+    height: 68px;
+   
+   background-color: #ffffff;
+    opacity: 0.9;
+    padding-left: 8%;
+    padding-right: 8%;
+    /* This is a template */
+    z-index: 1000;
+    top:0;
+    left: 0;
+    position: fixed;
+    /*end*/
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    background-color: #5537AF;
+}
+#menu{
+    width: 100%;
+    height: 550px;
+    background-image: url('../img/home-header-img-01-transport-VN.jpg') ;
+    background-position:  center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.greeting{
+    width: 40%;
+    height: 430px;
+    background-color: none;
+    padding: auto;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 100px;
+   
+}
+div.header-help{
+    width: 100%;
+    height: 240px;
+    padding-top: 100px;
+    padding-left: 22%;
+    margin: auto;
+    background-color: #FAFAFA;
+}
+div.info-detail-group{
+    width: 100%;
+    padding-left: 22%;
+    padding-right: 22%;
+   /* padding-top: 45px;*/
+    height: 860px;
+    background-color: #FAFAFA;
+}
+div.download{
+    width: 100%;
+    height: 245px;
+    padding-left: 22%;
+    margin: auto;
+    background-color: #FAFAFA;
+}
+div.newroom{
+    width: 100%;
+    height: 280px;
+    padding-top: 100px;
+    padding-left: 22%;
+    margin: auto;
+    background-color: #00B14F;
+}
+div.info{
+    width: 100%;
+    padding-left: 22%;
+    padding-top: 45px;
+    height: 555px;
+}
+.foot{
+    width: 100%;
+    height: 85px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 23px;
+    background-color: #363A45;
+}
+.policylist{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    color: #F4F4F5;
+    font-weight: 500;
+    line-height: 21px;
+}
+.license{
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    color:#AFB0B5;
+    line-height: 24px;
+}
+img{
+    padding: 0px;
+    margin: 0px;
+    width: 130px;
+    height: auto;
+}
+.logoDownload{
+    text-align: right;
+}
+li{
+padding: 0;
+margin: 0;
+text-align: right;
+}
+/* humberger*/
+.box-shadow-menu {
+    position: relative;
+    padding-left: 3.25em;
+   
+    
+}
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 2em;
+    top: 0.5em;
+    width: 1.4em;
+    height: 0.2em;
+    background:  #595C65;
+    box-shadow: 
+      0 0.45em 0 0  #595C65,
+      0 0.9em 0 0  #595C65;
+}
+.humburger{
+    padding-top: 10px;
+    font-size: 10px;
+    color:  #595C65;
+}
+.navbar-brand {
+    padding-left: 0;
+    
+}
+.logo-img{
+    margin-left: 40px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+.dropdown-toggle
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0px;
+    height: 93%;
+}
+.nav{
+    height:80% ;
+}
+.main-nav{
+    padding-top: 15px;
+}
+.second-nav{
+    padding-top: 0px;
+}
+.dropdown-toggle::after { 
+    content: none; 
+} 
+a{
+    font-size: 22px;
+    color:  #595C65;
+    margin: auto;
+}
+.btn{
+    padding-top: 0px;
+    margin: 0px;
+}
+.btn{
+    padding-top: 0px;
+    margin: 0px;
+}
+.arrow
+{
+    width: 30px;
+    padding-top:1em;
+    margin-right: 0em;
+}
+.arrow-icon
+{
+    padding-left: 0px;
+    width: 30px;
+}
+.img-scroll{
+    width: 20%;
+}
+h2.greeting
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00b14f;;
+}
+p.greeting{
+    color: #61666C;
+    margin-bottom: 8px;
+}
+a.greeting{
+    color: #61666C;
+    margin-top: 16px;
+    text-decoration: underline;
+}
+img.download{
+    width: 250px;
+}
+a.download{
+    height: 300px;
+    padding-right: 30px;
+}
+h1.download{
+    font-size: 33px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B4B4B;
+    margin-bottom: 30px;
+}
+h1.newroom{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D6EF52;
+    margin-bottom: 27px;
+}
+a.newroom{
+    font-size: 15px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p.infoGrab{
+    margin: 0px;
+}
+a.info-detail{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.info-logo-img{
+    margin: 0px;
+}
+h5.info-detail{
+    color: #363A45;
+}
+h6.info-detail{
+    color: #363A45;
+}
+.dropdown-toggle{
+    padding: 4px 4px;
+}
+h1.header-help{
+    font-size: 33px;
+    font-weight: 800;
+    position: relative;
+    top: 40px;
+    color: #4B4B4B;
+}
+div.card{
+    margin-right: 10px;
+    border-width: 0px;
+    background-color: #ffffff;
+}
+a.policylist{
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 500;
+}
+p.license{
+    color: #AFB0A3;
+    font-size: 19px;
+    font-weight: 500;
+}
+h5.card-title{
+    color: #00B14F;
+    font-size: 23px;
+}
+p.card-text{
+    font-size: 16.5px;
+    font-weight: 500;
+}
